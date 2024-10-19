@@ -2,7 +2,7 @@
 
 ## What does it simply do ?
 
-It is a simple Chrome extension that add some necessary features to GUC CMS to make it easy to deal with it
+It is a simple browser extension that add some necessary features to GUC CMS to make it easy to deal with it
 
 
 ## Features
@@ -10,16 +10,26 @@ It is a simple Chrome extension that add some necessary features to GUC CMS to m
 2. Rename downloaded files
 ## How to use ?
 
-1. Run this command to download files 
+Run this command to download files 
 ```bash
-git clone https://github.com/AhmedNasserG/GUC-CMS-Video-dl.git
+git clone https://github.com/AhmedNasserG/GUC-CMS-Enhancer.git
 ```
 or simply download zipped files 
 
-2. Go to  ``` chrome://extensions/ ```
-3. Enable Developer mode
-4. Click load unpacked button
-5. Select CMS-Video-dl-enable file
+### Chrome
+1. Go to  ``` chrome://extensions/ ```
+2. Enable Developer mode
+3. Click load unpacked button
+4. Select GUC-CMS-Enhancer file
+
+## Firefox
+1. Download [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/), the normal version of Firefox will **not** allow you to permanently load this extension.
+2. Go to `about:config`
+3. Set `xpinstall.signatures.required` to `false`
+4. Go to `about:addons`
+5. Click on the gear icon and select `Install Add-on From File...`
+6. Select the 'GUC-CMS-Enhancer' zip file. If your folder is not zipped, zip it first.
+
 
 Nothing other needed just open CMS and a download button will appears
 
