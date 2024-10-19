@@ -28,7 +28,7 @@ or simply download zipped files
 3. Set `xpinstall.signatures.required` to `false`
 4. Go to `about:addons`
 5. Click on the gear icon and select `Install Add-on From File...`
-6. Select the 'GUC-CMS-Enhancer' zip file. If your folder is not zipped, zip it first.
+6. Select 'guc_cms_enhancer-0.1.2.xpi'
 
 
 Nothing other needed just open CMS and a download button will appears
